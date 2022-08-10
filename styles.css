@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+} 
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+.navbar{
+    background-color: rgb(177, 175, 175);
+}
+.navbar-nav li a{
+    background-color: #fff;
+    border-bottom: 1px solid #000;
+}
+.navbar-brand{
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 20px;;
+    color: #000;
+}
+ul li a{
+    width: 100%;
+}
+h1{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    color: #000;
+   }
+h3{
+    text-align: center;
+   }
+.row{
+    margin: auto;
+   }
+#chicken{
+    background-color: rgb(177, 175, 175);
+}
+#chicken h3{
+    text-align: center;
+    font-size: 24px;
+}
+#beef{
+    background-color: rgb(177, 175, 175);
+}
+#beef h3{
+    text-align: center;
+    font-size: 24px;
+}
+#sushi{
+    background-color: rgb(177, 175, 175);
+}
+#sushi h3{
+    text-align: center;
+    font-size: 24px;
+}
+.row{
+   gap: 1.5rem;
+   margin: auto;
+   margin-right: 1.5rem;
+   margin-left: 1.5rem;
+}
+@media (min-width:768px) {
+    .navbar-nav{
+        display: none;
+    }
+    .row{
+        width:100%;
+       
+        margin: 1.5em;
+        display: flex;
+        justify-content:center;
+
+    }
+}
+@media (min-width:768px) {
+    .navbar-nav{
+        display: none;
+    }
+    .nav-item a{
+        margin: 0;
+    }
+}
